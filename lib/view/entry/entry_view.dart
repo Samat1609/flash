@@ -55,7 +55,7 @@ class EntryView extends StatelessWidget {
               const SizedBox(height: 20.0),
               LoginRegisterWidget(
                 color: AppColors.registerContainerColor,
-                text: 'Register',
+                text: 'Sakebaya',
                 onTap: () {
                   Navigator.pushNamed(context, RegisterView.route);
                 },
